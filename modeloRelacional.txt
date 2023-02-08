@@ -1,0 +1,26 @@
+Modelo relacional(tablas):
+
+relacional
+	estudiantes informacion
+		documento
+		nombre
+		hora entrada
+		hora salida
+		correo estudiante
+
+	maestros informacion
+		documento
+		nombre
+		correo maestro	
+
+	login estudiantes
+		correo estudiante
+		contraseña
+
+	login maestros
+		correo maestro
+		contraseña
+
+	comentarios bobos :)
+		nombre usuario
+		contenido
