@@ -1,0 +1,109 @@
+#imagen{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: brown;
+    z-index: 1;
+}
+
+#boton{
+    background-color: #FF5800;
+    color: white;
+    width: 200px;
+}
+
+#botonAbajo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#encabezado{
+    display: flex;
+    background-color: #FF5800;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    z-index: 2;
+}
+
+#imagenCentro{
+    margin: 80px;
+    display: flex;
+    height: 230px;
+    width: 230px;
+    background-color: #FF5800;
+    border-radius: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+#barraOpciones{
+    position: absolute;
+    border-radius: 50px;
+    margin: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    padding: 20 px;
+    background-color: #FF5800;
+
+}
+
+#formularioRegistro{
+    display: flex;
+    border-radius: 50px;
+    margin: 20px;
+    margin-left: 330px;
+    border: solid;
+    border-color: #FF5800;
+    border-width: 2px;
+    height: 300px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#barraOpcionesInstructor{
+    position: absolute;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    padding: 20 px;
+    background-color: #FF5800;
+    
+}
+
+#seccionForo{
+    display: flex; 
+    height: min-content; 
+    padding: 30px; 
+    width: auto; 
+    margin-left: 330px; 
+}
+
+#comentarioForo{
+    display: flex;
+    border-radius: 10px;
+    height: 150px; 
+    width: 100%;
+    border-color: #FF5800;
+}
+
+#seccionLista{
+    display: flex;
+    margin: 20px;
+    margin-left: 330px;
+    width: auto;
+    height: auto;
+    background-color: blueviolet;
+}
